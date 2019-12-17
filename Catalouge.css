@@ -1,0 +1,402 @@
+body{
+	margin:0;
+}
+.header{
+	border: 2px solid black;
+	background-color: #000000;
+	color: white;
+	margin-bottom: -40px;
+	height: 110px;
+}
+.menu{
+	font-family: Berlin Sans FB;
+}
+.container{
+
+	background-image: linear-gradient(to right, #e6ffcc, #f2ffe6);
+}
+
+.TukuJudul{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 6px;
+	font-weight: 900;
+	font-size: 40px;
+	margin-top: 120px;
+	color: #2e2e1f;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+
+ul a{
+	padding: 12px;
+	color: red;
+}
+
+ul{
+	position: relative;
+	margin-top: -60px;
+	margin-bottom: 70px;
+}
+.find{
+	margin-top: -40px;
+	font-family: Freestyle Script;
+}
+
+.produk,.ribuan,.gratis{
+	display: inline-block;
+	padding:25px;
+	font-family: Maiandra GD;
+}
+
+.form1{
+	float: right;
+	margin-top: -90px;
+
+}
+
+.cari{
+	text-align: center;
+	width: 200px;
+	margin-right: 40px;
+	
+	box-sizing: border-box;
+}
+.gambar{
+	margin: auto;
+	width: 900px;
+	/*border: 2px solid black; */
+}
+div.polaroid1 {
+	display: inline-block;
+	margin-right: 35px;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: Maiandra GD;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+div.polaroid2 {
+	display: inline-block;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+
+div.polaroid3 {
+	display: inline-block;
+	margin-right: 60px;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+div.polaroid4 {
+	display: inline-block;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+
+div.polaroid5 {
+	display: inline-block;
+	margin-right: 60px;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+div.polaroid6 {
+	display: inline-block;
+	margin-top: 50px;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background-image: linear-gradient(to right, #ffeecc,#fff7e6);
+}
+
+div.container {
+	padding: 10px;
+}
+.container .thumbnail{
+	font-weight: bold;
+	width: 10px;
+}
+
+/*ul b{
+	color: red;
+	width: 250px;
+	}*/
+/*.ButtonBawah{
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 200px;
+
+}
+.ButtonBawah ul a{
+	
+	display: inline;
+	font-family: Consolas;
+	font-size: 20px;
+	color: black;
+	margin-left: -25px;
+	padding: 35px;
+	}*/
+	.dropbtn {
+		background-color: transparent;
+		color: white;
+		padding: -1px;
+		font-size: 22px;
+		border: none;
+		cursor: pointer;
+		font-family: Berlin Sans FB;
+
+	}
+
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		font-family: Berlin Sans FB;
+	}
+
+	.dropdown a:hover {background-color: #ddd;}
+
+	.show {display: block;}
+
+
+	.btn__loaddata{
+		padding: 8px 15px;
+		background: black;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	.text__center{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.modal{
+		z-index: 999;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+	.overlay--modal{
+	background-color: #cccccc57;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+	opacity: 0;
+	z-index: -1;
+	}
+
+	.modal-body{
+		background-color: white;
+		border-radius: 15px;
+	}
+
+	.modal-show{
+		display: block;
+	}
+
+	/* form */
+.form--grup{
+	margin: 30px 0;
+}
+
+.form--grup label{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.form--input{
+	width: 100%;
+	margin-top: .5rem;
+	height: 40px;
+	padding: 8px 5px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 2px solid #dcdcdc;
+	transition: .5s;
+	color: #013450;
+}
+
+.form--input:hover{
+	box-shadow: 0px 5px 10px #dcdcdc;
+	border: 2px solid #013450;
+	background-color: white;
+}
+
+.form--input:focus{
+	box-shadow: 0px 5px 10px #dcdcdc;
+	border: 2px solid #013450;
+	background-color: white;
+}
+
+.form--input-blue-2{
+	width: 100%;
+	margin-top: .5rem;
+	height: 40px;
+	padding: 8px 5px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 2px solid #6F77EF;
+	transition: .5s;
+	color: #6F77EF;
+}
+
+.form--input-blue-2:hover{
+	box-shadow: 0px 5px 10px #6F77EF;
+	border: 2px solid #6F77EF;
+	background-color: white;
+}
+
+.form--input-blue-2:focus{
+	box-shadow: 0px 5px 10px #6F77EF;
+	border: 2px solid #6F77EF;
+	background-color: white;
+}
+
+.form--textarea{
+	width: 100%;
+	margin-top: .5rem;
+	padding: 8px 5px;
+	border-radius: 5px;
+	border: 2px solid #dcdcdc;
+	transition: .5s;
+	color: #013450;
+	resize: none;
+	height: 200px;
+	transition: .5s;
+}
+
+.form--textarea:hover{
+	box-shadow: 0px 5px 10px #dcdcdc;
+	border: 2px solid #757575
+}
+
+.form--textarea:focus{
+	box-shadow: 0px 5px 10px #dcdcdc;
+	border: 2px solid #757575
+}
+
+.hr--form{
+	margin: 40px 0;
+	border: 1px solid #00000026;
+}
+
+.mt--5{
+	margin-top: 3rem !important;
+}
+
+.mb--5{
+	margin-bottom: 3rem !important;
+}
+
+.p--relative{
+	position: relative;
+}
+
+.p--5{
+	padding: 3rem !important;
+}
+
+.btn--login{
+	padding: 10px 30px;
+}
+
+.hideModal{
+	z-index:-1;
+	opacity:0;
+	animation: hide .25s;
+
+	transform: scale(0);
+}
+@keyframes hide {
+	from{
+		z-index:2;
+		transform: scale(1);
+		opacity:1;
+	} 
+	to{
+		z-index:-1;
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+.showModal{
+	opacity:1;
+	z-index:2;
+	animation: show .2s;
+
+	transform: scale(1);
+}
+
+@keyframes show {
+	from{
+
+		transform: scale(0);
+		opacity:0;
+		z-index:-1;
+	} 
+	to{
+
+		transform: scale(1);
+		opacity: 1;
+		z-index:2;
+	}
+}
